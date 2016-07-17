@@ -150,3 +150,7 @@ $RECYCLE.BIN/
 #####
 # End of core ignore list, below put you custom 'per project' settings (patterns or path)
 #####
+CSharpSorting.csproj
+CSharpSorting.sln
+CSharpSorting.userprefs
+Properties/AssemblyInfo.cs
