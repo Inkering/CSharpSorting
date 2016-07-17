@@ -8,13 +8,13 @@ Erik Boesen wrote a great library of a few sorting algorithims in java. He is us
 Please follow the same suggestions for this library. Cheers!
 
 ## How to Use
-'SortedArray = sort.SortingType(UnsortedArray);
+`SortedArray = sort.SortingType(UnsortedArray);`
 
 Available algorithms are:
-* 'bubble'
-* 'selection'
-* 'insertion'
-* '... more to come as I need them'
+* `bubble`
+* `selection`
+* `insertion`
+* `... more to come as I need them`
 
 ## Credit
 Written by Dieter Brehm, Bubble and Selection methods used from Erik Boesen
