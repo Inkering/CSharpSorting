@@ -6,7 +6,6 @@ namespace CSharpSorting
 	{
 		public static void Main(string[] args)
 		{
-			Sort sort = new Sort();
 			Random random = new Random();
 
 			//Make a random list of unsorted values and list them
@@ -18,20 +17,20 @@ namespace CSharpSorting
 				Console.WriteLine(values[i]);
 			}
 			//Bubble Sorting
-			int[] bubbled = sort.bubble(values);
+			int[] bubbled = Sort.bubble(values);
 			Console.WriteLine("Bubble Sorted:");
 			for (int i = 0; i < bubbled.Length; i++)
 			{
 				Console.WriteLine(bubbled[i]);
 			}
-			int[] selected = sort.selection(values);
+			int[] selected = Sort.selection(values);
 			Console.WriteLine("Selection Sorted:");
 			for (int i = 0; i < selected.Length; i++)
 			{
 				Console.WriteLine(selected[i]);
 			}
 			//Insertion sorting
-			int[] inserted = sort.insertion(values);
+			int[] inserted = Sort.insertion(values);
 			Console.WriteLine("Insertion Sorted:");
 			for (int i = 0; i < inserted.Length; i++)
 			{

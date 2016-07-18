@@ -1,10 +1,10 @@
 ﻿using System;
 namespace CSharpSorting
 {
-	public class Sort
+	public static  class Sort
 	{
 		//By Erik Boeson
-		public int[] bubble(int[] array)
+		public static int[] bubble(int[] array)
 		{
 			//loop through the array until sorted
 			for (int i = 0; i < array.Length; i++)
@@ -27,7 +27,7 @@ namespace CSharpSorting
 			return array;
 		}
 		//By Erik Boeson
-		public int[] selection(int[] array)
+		public static int[] selection(int[] array)
 		{
 			for (int i = array.Length - 1; i > 0; i--)
 			{
@@ -46,7 +46,7 @@ namespace CSharpSorting
 			return array;
 		}
 		//Written by Dieter Brehm
-		public int[] insertion(int[] array)
+		public static int[] insertion(int[] array)
 		{
 			//Loop through the array until sorted
 			for (int i = 1; i < array.Length; i++)
